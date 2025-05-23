@@ -2,7 +2,6 @@
   "name": "bag-shop",
   "version": "1.0.0",
   "main": "index.js",
-
   "scripts": {
     "test": "nodemon app.js"
   },
@@ -13,6 +12,7 @@
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
+    "debug": "^4.4.1",
     "experss": "^0.0.1-security",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
