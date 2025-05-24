@@ -6,6 +6,7 @@ const bd = require ('./config/mongoose-connection');
 const ownersRouter = require ('./routes/ownersRouter');
 const usersRouter = require ('./routes/usersRouter');
 const productsRouter = require ('./routes/productsRouter');
+const db = require ('./config/mongoose-connection');
 
 
 const app = express();
