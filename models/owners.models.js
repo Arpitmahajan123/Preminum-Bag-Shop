@@ -28,12 +28,12 @@ const ownerSchema = new mongoose.Schema ({
 
     picture : {
         type : String,
-        required : true,
+        // required : true,
     },
 
     gestin : {
         type : String,
-        required : true,
+        // required : true,
     },
 
 
