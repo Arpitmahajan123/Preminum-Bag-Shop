@@ -21,10 +21,6 @@ const userSchema = new mongoose.Schema ({
         required : [true, 'Password is required'],
     },
 
-    isadmin : {
-        type : Boolean,
-        default : false,
-    },
 
     cart : {
         type : Array,
@@ -38,12 +34,12 @@ const userSchema = new mongoose.Schema ({
 
     contact : {
         type : String,
-        required : true,
+        // required : true,
     },
 
     picture : {
         type : String,
-        required : true,
+        // required : true,
     },
 
 });
