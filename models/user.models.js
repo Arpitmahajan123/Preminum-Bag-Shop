@@ -22,15 +22,15 @@ const userSchema = new mongoose.Schema ({
     },
 
 
-    cart : {
-        type : Array,
-        default : [],
-    },
+    // cart : {
+    //     type : Array,
+    //     default : [],
+    // },
 
-    order : {
-        type : Array,
-        default : [],
-    },
+    // order : {
+    //     type : Array,
+    //     default : [],
+    // },
 
     contact : {
         type : String,
